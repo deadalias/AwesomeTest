@@ -1,6 +1,18 @@
 <!DOCTYPE html><html lang="en">
      <head>
         <title> Page </title>
+  <style>
+  #centered{
+  width: 500px;
+  height: 500px;
+  position:absolute;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  margin:auto;
+}
+          </style>
         <script>
             function changeBG(color){
                 document.body.style.background = color;
@@ -19,8 +31,8 @@
         <p>This is a button</p>
         <br>
         <button type="button" onclick = "changeBG('yellow');">Yellow</button><br><br>
-         <div>
-        <script align="center" src="sketch.js"></script>
+         <div id="centered">
+        <script src="sketch.js"></script>
         <script src="walker.js"></script>
         <script src="emojis.js"></script>
          </div>
